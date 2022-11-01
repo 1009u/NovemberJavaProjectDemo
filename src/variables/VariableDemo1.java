@@ -24,6 +24,21 @@ public class VariableDemo1 {
         boolean color=true;
         System.out.println("Color of Taj is White :"+color);
 
+        // print some Integer variables
+        int x=45;
+        int y=89;
+        int z=58;
+        System.out.println(x+y+z);
+
+        // different way
+        int a=2,b=4,c=6;
+        System.out.println(a*b*c);
+
+        // add same value multiple time
+         int d,e,f;
+         d=e=f=3;
+        System.out.println(d+e+f);
+
 
 
     }
