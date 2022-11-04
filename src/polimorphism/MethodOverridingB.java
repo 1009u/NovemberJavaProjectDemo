@@ -9,7 +9,5 @@ public class MethodOverridingB extends MethodOverridingA{
         respect.greet();
         respect.hello();
         respect.bye();
-
-
     }
 }

@@ -38,8 +38,6 @@ public class VariableDemo1 {
          int d,e,f;
          d=e=f=3;
         System.out.println(d+e+f);
-
-
-
     }
+    
 }
