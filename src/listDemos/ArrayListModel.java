@@ -4,8 +4,8 @@ import models.Speaker;
 
 import java.util.ArrayList;
 
-public class ArrayLIstModel {
-    public static void main(String[] args) {
+public class ArrayListModel {
+    public void demoArrayList(){
         ArrayList<Speaker> arrayList=new ArrayList<>();
         Speaker speaker1=new Speaker("Stone",12,2400,"Made in China");
         Speaker speaker2=new Speaker("JBL",17,5400,"Made in America");
@@ -28,6 +28,12 @@ public class ArrayLIstModel {
         for (Speaker typ_Speaker: arrayList){
             System.out.println(typ_Speaker.getBrand()+" "+typ_Speaker.getProduct_id()+" "+typ_Speaker.getPrice()+" "+typ_Speaker.getMade_in());
         }
+
+    }
+    public static void main(String[] args) {
+      ArrayListModel arrayListModel=new ArrayListModel();
+      arrayListModel.demoArrayList();
+
 
     }
 }
