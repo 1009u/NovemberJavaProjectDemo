@@ -19,9 +19,10 @@ public class RidingExceptionRun {
             System.out.println("Welcome You are eligible for Riding.");
         }
     }
+    static String welcome_note="Note: See carefully throw and trows :"; //small use of static keyword
     public static void main(String[] args) throws RidingException {
         RidingExceptionRun object=new RidingExceptionRun();
         object.demoCustomExp();
-
+        System.out.println( RidingExceptionRun.welcome_note);
     }
 }
