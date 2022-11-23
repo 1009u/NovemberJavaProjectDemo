@@ -9,6 +9,7 @@ public class HashMap1 {
         HashMap<Integer,String> mobile=new HashMap<>();
         // put data in HashMap
         mobile.put(1,"Samsung");
+        mobile.put(1,"Samsung47S");
         mobile.put(2,"Nokia");
         mobile.put(3,"Lava");
         mobile.put(4,"Oppo");
